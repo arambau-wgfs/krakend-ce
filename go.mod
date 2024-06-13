@@ -2,6 +2,8 @@ module github.com/krakendio/krakend-ce/v2
 
 go 1.22
 
+replace github.com/krakendio/krakend-lambda/v2 => ./backend-overrides/krakend-lambda
+
 require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-contrib/uuid v1.2.0
