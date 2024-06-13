@@ -1,0 +1,4 @@
+[submodule "backend-overrides/krakend-lambda"]
+	path = backend-overrides/krakend-lambda
+	url = git@github.com:arambau-wgfs/krakend-lambda.git
+    	branch = master
